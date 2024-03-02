@@ -10,6 +10,7 @@ import HomeIcon from '../assets/icons/home.svg'
 import LogoutIcon from '../assets/icons/logout.svg'
 import Notification from '../assets/icons/notification.svg'
 import EditIcon from '../assets/icons/edit.svg'
+import CheckIcon from "../assets/icons/check.svg";
 
 export {
   AuthIllustration,
@@ -22,4 +23,5 @@ export {
   Notification,
   Poster,
   EditIcon,
+  CheckIcon
 }
