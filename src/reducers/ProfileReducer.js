@@ -1,6 +1,7 @@
 import { actions } from '../actions'
 
-const { DATA_FETCHING, DATA_FETCHED, DATA_FETCH_ERROR, IMAGE_UPDATED } = actions
+const { DATA_FETCHING, DATA_FETCHED, DATA_FETCH_ERROR, IMAGE_UPDATED } =
+  actions.profile
 
 const initialState = {
   user: null,
@@ -10,7 +11,7 @@ const initialState = {
 }
 
 const profileReducer = (state, action) => {
-    // console.log(action.data)
+  // console.log(action.data)
   switch (action.type) {
     case DATA_FETCHING: {
       return {
