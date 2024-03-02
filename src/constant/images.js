@@ -9,6 +9,7 @@ import Dots from '../assets/icons/3dots.svg'
 import HomeIcon from '../assets/icons/home.svg'
 import LogoutIcon from '../assets/icons/logout.svg'
 import Notification from '../assets/icons/notification.svg'
+import EditIcon from '../assets/icons/edit.svg'
 
 export {
   AuthIllustration,
@@ -20,4 +21,5 @@ export {
   LogoutIcon,
   Notification,
   Poster,
+  EditIcon,
 }
