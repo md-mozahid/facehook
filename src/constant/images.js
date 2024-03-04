@@ -16,6 +16,7 @@ import LogoutIcon from '../assets/icons/logout.svg'
 import Notification from '../assets/icons/notification.svg'
 import ShareIcon from '../assets/icons/share.svg'
 import TimeIcon from '../assets/icons/time.svg'
+import RegistrationLogo from '../assets/icons/registration.svg'
 
 export {
   AuthIllustration,
@@ -34,4 +35,5 @@ export {
   ShareIcon,
   ThreeDotsIcon,
   TimeIcon,
+  RegistrationLogo,
 }

@@ -55,7 +55,7 @@ export const useApi = () => {
       api.interceptors.request.eject(requestInterceptor)
       api.interceptors.request.eject(responseInterceptor)
     }
-  }, [auth.authToken])
+  }, [auth.authToken, auth, setAuth])
 
   return { api }
 }
